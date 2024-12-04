@@ -1,0 +1,45 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "A custom Armor pack that removes Armor Trims and can minimize the visible armor, or hide it completely.\nCreated by Brorenzo8194",
+        "name": "Minimal Armor & Trims",
+        "uuid": "caea13f1-0899-4e0e-9d82-63f6b23c0646",
+        "version": [0, 1, 0],
+        "min_engine_version": [ 1, 20, 50 ]
+    },
+    "modules": [
+        {
+            "description": "A custom Armor pack that removes Armor Trims and can minimize the visible armor, or hide it completely.\nCreated by Brorenzo8194",
+            "type": "resources",
+            "uuid": "26552114-dc05-4f86-aea8-e7e9d6ab0911",
+            "version": [0, 1, 0]
+        }
+    ],
+	"subpacks": [
+		{
+			"folder_name": "NoTrimOnly",
+			"name": "Removes all Armor Trims so that only Armor is visible.",
+			"memory_tier": 0
+		},
+		{
+			"folder_name": "MinNoTrim",
+			"name": "Removes all Armor Trims and minimizes Armor so more of your skin is visible.",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "InvisNoTrim",
+			"name": "Removes all Armor Trims and Armor so only your skin is visible.",
+			"memory_tier": 2
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "§lYou can configure this pack as follows:§r\n\n• §l§gNo Trims Only§r: Removes all Armor Trims so that only Armor is visible.\n• §l§3Minimal Armor - No Trims§r: Removes all Armor Trims and minimizes Armor so more of your skin is visible.\n• §l§2Invisible Armor - No Trims§r: Removes all Armor Trims and Armor so only your skin is visible.\n\n§7Any updates to the pack can be located on my Github: §bhttps://github.com/Brorenzo"
+		}
+	],
+	"metadata": {
+	"authors": ["Brorenzo"],
+	"url":"https://github.com/Brorenzo"
+	}
+}
